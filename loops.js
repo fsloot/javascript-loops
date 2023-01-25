@@ -22,7 +22,7 @@ console.log("")
 // klaar!
  // ==========================================
 
-for (i = 0; i <= 4; i++) {
+for (let i = 0; i <= 4; i++) {
     if (i != 4) {
         console.log("loop...");
     } else {
@@ -71,3 +71,14 @@ console.log(" ")
 // >> 9
 // ==========================================
 
+for (let i = 0; i <= 9;  i++) {
+    if (i >= 6) {
+        console.log(">>" + i);
+    } else {
+        if (i >= 3) {
+            console.log(">" + i);
+        } else {
+            console.log(i);
+        }
+    }
+}
